@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('candel.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.left{
+    
+    display: inline-block;
+    top: 20px;
+    position: absolute;
+    left: 34px;
+ 
+}
+.left img{
+    width: 100px;
+    filter: invert(100%);
+    text-shadow:0cm;
+  
+  
+}
+.left div{
+    color: hsl(69, 37%, 96%);
+    text-align: center;
+   
+}
+.mid{
+ 
+    margin: 18px auto;
+    display: block;
+    width: 500px;
+
+}
+.right{
+  
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 25px;
+   
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(218, 172, 19);
+}
+.btn{
+    margin:  0px 6px;
+    background-color: black;
+     color: white;
+     padding: 4px 11px;
+     border: 2px solid gray;
+     border-radius: 9px;
+     font-size: 14px;
+     width: 75px;
+
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+}
+.container{
+   
+    display: inline-block;
+    margin: 225px 35px;
+    padding: 25px  25px;
+    color: antiquewhite;
+}
+.bts{
+    background-color: black;
+    color: white;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    width: 250px;
+}
+.group input{
+ 
+ text-align: center;
+ padding: 0px 1px;
+ width: 245px;
+ display: block;
+ border: 2px solid black;
+ margin: 2px;
+ border-radius: 8px; 
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; background-color: transparent;}
